@@ -1,0 +1,6 @@
+framework module MDStatePageKit {
+  umbrella header "MDStatePageKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

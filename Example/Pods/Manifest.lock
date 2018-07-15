@@ -1,0 +1,16 @@
+PODS:
+  - MDStatePageKit (0.1.0)
+
+DEPENDENCIES:
+  - MDStatePageKit (from `../`)
+
+EXTERNAL SOURCES:
+  MDStatePageKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MDStatePageKit: 9034a86828f00bcd4c052da12e1419ab62fec60b
+
+PODFILE CHECKSUM: 10b6d0d15a67155f6d54cc6c3f73a7a0a16247a0
+
+COCOAPODS: 1.5.3

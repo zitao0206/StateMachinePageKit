@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'MDStatePageKit_Example' do
+  pod 'MDStatePageKit', :path => '../'
+
+  target 'MDStatePageKit_Tests' do
+    inherit! :search_paths
+  end
+end
