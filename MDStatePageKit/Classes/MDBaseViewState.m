@@ -25,6 +25,16 @@
 {
     [self.fatherView addSubview:self.contentView];
     [self loadChildStates];
+    [self freeChildStates:preState];
+}
+
+/*
+ 前一个状态节点的子状态以及contentView实时释放，从而可以及时
+ 释放部分内存，尽可能做到内存轻量化
+ */
+- (void)freeChildStates:(MDBaseViewState *)preState
+{
+    preState.childStates = nil;
 }
 
 - (void)willExitWithNextState:(MDBaseViewState *)nextState
