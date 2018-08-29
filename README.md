@@ -1,4 +1,4 @@
-# XYReactDataBoard
+# MDStatePageKit
 
 [![CI Status](http://img.shields.io/travis/lizitao000/MDStatePageKit.svg?style=flat)](https://travis-ci.org/lizitao000/MDStatePageKit)
 [![Version](https://img.shields.io/cocoapods/v/MDStatePageKit.svg?style=flat)](http://cocoapods.org/pods/MDStatePageKit)
