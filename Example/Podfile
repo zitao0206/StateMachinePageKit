@@ -1,9 +1,13 @@
 use_frameworks!
 
-target 'MDStatePageKit_Example' do
-  pod 'MDStatePageKit', :path => '../'
+platform :ios, '10.0'
 
-  target 'MDStatePageKit_Tests' do
+target 'StateMachinePageKit_Example' do
+  pod 'StateMachinePageKit', :path => '../'
+
+  target 'StateMachinePageKit_Tests' do
     inherit! :search_paths
+
+    
   end
 end

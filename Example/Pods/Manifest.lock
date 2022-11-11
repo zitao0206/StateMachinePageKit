@@ -1,16 +1,16 @@
 PODS:
-  - MDStatePageKit (0.1.0)
+  - StateMachinePageKit (0.0.1)
 
 DEPENDENCIES:
-  - MDStatePageKit (from `../`)
+  - StateMachinePageKit (from `../`)
 
 EXTERNAL SOURCES:
-  MDStatePageKit:
+  StateMachinePageKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MDStatePageKit: 9034a86828f00bcd4c052da12e1419ab62fec60b
+  StateMachinePageKit: 46b88e02ed6b73d2bd03736820494126924f389d
 
-PODFILE CHECKSUM: 10b6d0d15a67155f6d54cc6c3f73a7a0a16247a0
+PODFILE CHECKSUM: d958fbc0ccdfb0367425d2a4e79eb00edc2f0243
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.11.3

@@ -1,0 +1,6 @@
+framework module StateMachinePageKit {
+  umbrella header "StateMachinePageKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

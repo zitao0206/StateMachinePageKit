@@ -1,0 +1,6 @@
+framework module Pods_StateMachinePageKit_Tests {
+  umbrella header "Pods-StateMachinePageKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
