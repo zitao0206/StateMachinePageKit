@@ -7,33 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23172592DDC5033EECB6013E10C0B788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		021C75010F2006274C499159403FD525 /* StateMachinePageKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 142066A6D598B83DBF1F632D29C3FCCE /* StateMachinePageKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06F5E5F4B005096464C316ABB1A15A4F /* BaseZeroViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A27EEC285CC0C983DD144548B242082 /* BaseZeroViewState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11408127E562D30DEEE8188A4C46EB74 /* BaseStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B49420879B2917352BC1C46FE4EFD2 /* BaseStateViewController.m */; };
 		2B20E8909DB241E7C27994B4148851EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3F01B1AED8D1774B564A2DDF43DF95C3 /* BaseViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = D44745558C7045064F0A94C1FDD4CFF4 /* BaseViewState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54F3BB9B787F56E445F26B9B263AB062 /* BaseViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 974081F77291A1932124AA65B3D75FE4 /* BaseViewState.m */; };
-		6DA035C1197C25E60D4F9B99F4CCFC1D /* BaseStateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C482181BDBE5E33EADC9F51EFE024790 /* BaseStateViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71187D8B1E91630C1DB9364FEA26C294 /* StateMachinePageKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCDF92C68175052826F48A9A1024236 /* StateMachinePageKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A89D007D11E2940338A0C6E84C1766 /* BaseStateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7DF87BCA596F5A034565BD89F72CA7 /* BaseStateDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		737F189E1A934E849BDE6728FEBA0B7D /* Pods-StateMachinePageKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C40D7C4D1B4F661E701FF615FB2429 /* Pods-StateMachinePageKit_Tests-dummy.m */; };
-		7C8CEB4D0119EB1DA79910947D7F8402 /* BaseStateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC3D2C6B2EDD0B3948EACE068A23026 /* BaseStateDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D52687AD7B5AAB068B3DB2BE819DD6D /* StateMachinePageKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36337D0A2CD4FF758F5FD03844C833A8 /* StateMachinePageKit-dummy.m */; };
+		7F79C845036A5AF6DBEE1FAB3F51A6F8 /* StateMachinePageKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A37596B195F7DE5BBC233C8A6DC05DC4 /* StateMachinePageKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A3291262DC94122951C0BD20DDEEDF0 /* Pods-StateMachinePageKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 447663BCC30D4230CB545C8CEB39A078 /* Pods-StateMachinePageKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA21B29F32F2E7686D7810E237948AC /* BaseZeroViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E38C960182E325E0585C1C3921598A /* BaseZeroViewState.m */; };
 		95455C79F71881C9FD967931054909A3 /* Pods-StateMachinePageKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C205CD74F808BDF90EC4545F09A19162 /* Pods-StateMachinePageKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B04766371C4455D1EE45BE4E014DA526 /* StateMachinePageKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E6960E95EA0F1F6581BB5362180F52 /* StateMachinePageKit-dummy.m */; };
+		9E50DF9EA93E61D44EE04374B6B579A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B9F6369F1CF083FA509944A645340DC3 /* BaseStateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 628299CC84BF39ADE565D2010468B019 /* BaseStateViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB77FB271F4FE6F2B2B8CBBB804B85CD /* Pods-StateMachinePageKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8205EFA04876E075CFFCE9C0CE31EA99 /* Pods-StateMachinePageKit_Example-dummy.m */; };
+		D0ABF00A4F51B0B66E8F95603C5FE561 /* BaseViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D3DC4C59AA67568684D298D49FA23F /* BaseViewState.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D81240188012639E4213549F2D8410A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E38DF35C1D53C23EB69D322994AC45AB /* BaseZeroViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = F776D44E2A546DC7100B46F213CF849E /* BaseZeroViewState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4AC6F2CFC01BF0419131BE972F3FD02 /* BaseZeroViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ED146455EAE952671BFC29A7ED1898 /* BaseZeroViewState.m */; };
-		F6642D85B96E9295537E9C91EC3BD6A5 /* BaseStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC64564BA16942F552DB56AF786BB433 /* BaseStateViewController.m */; };
+		FAED9A68C8B4E712E04F840F9845DAEB /* BaseViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 588956C1CE4AA48037A4593F29BC87B6 /* BaseViewState.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FEEF727C6CE951B72FB7BA4DB8969043 /* PBXContainerItemProxy */ = {
+		D82129D20A23DCBFF39A828E91685810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F2FFD1976E6BDE7331FCC34F115C6E6A;
 			remoteInfo = StateMachinePageKit;
 		};
-		FEF319204931E091D1155DB2EBC17A6D /* PBXContainerItemProxy */ = {
+		FE79973DA8D26F9AACF371C0D2E87AA2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -43,56 +44,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CCDF92C68175052826F48A9A1024236 /* StateMachinePageKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StateMachinePageKit-umbrella.h"; sourceTree = "<group>"; };
-		18DD9A2CB5CD24C6E0997DA9003BD9BE /* StateMachinePageKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StateMachinePageKit.modulemap; sourceTree = "<group>"; };
+		11B49420879B2917352BC1C46FE4EFD2 /* BaseStateViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseStateViewController.m; path = StateMachinePageKit/Classes/BaseStateViewController.m; sourceTree = "<group>"; };
+		142066A6D598B83DBF1F632D29C3FCCE /* StateMachinePageKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StateMachinePageKit-umbrella.h"; sourceTree = "<group>"; };
 		1E767DA46A09FC1648D77C555BF7F30E /* Pods-StateMachinePageKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StateMachinePageKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		27ED146455EAE952671BFC29A7ED1898 /* BaseZeroViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseZeroViewState.m; path = StateMachinePageKit/Classes/BaseZeroViewState.m; sourceTree = "<group>"; };
+		21E38C960182E325E0585C1C3921598A /* BaseZeroViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseZeroViewState.m; path = StateMachinePageKit/Classes/BaseZeroViewState.m; sourceTree = "<group>"; };
 		2E2A76DFDBF2CAAB0E9E4CF7E0B9B8C4 /* StateMachinePageKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StateMachinePageKit; path = StateMachinePageKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		417E386D51B07A9B613B331091AC4461 /* StateMachinePageKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StateMachinePageKit-prefix.pch"; sourceTree = "<group>"; };
+		36337D0A2CD4FF758F5FD03844C833A8 /* StateMachinePageKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StateMachinePageKit-dummy.m"; sourceTree = "<group>"; };
+		3E7347A11D83F4103A7C685675072F47 /* StateMachinePageKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StateMachinePageKit-Info.plist"; sourceTree = "<group>"; };
 		41BB4A91142C8F479B210A0A60D3BE25 /* Pods-StateMachinePageKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StateMachinePageKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		447663BCC30D4230CB545C8CEB39A078 /* Pods-StateMachinePageKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateMachinePageKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		4E7DF87BCA596F5A034565BD89F72CA7 /* BaseStateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseStateDelegate.h; path = StateMachinePageKit/Classes/BaseStateDelegate.h; sourceTree = "<group>"; };
 		54C55600DA0636180BFC22C12C60A945 /* Pods-StateMachinePageKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StateMachinePageKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		588956C1CE4AA48037A4593F29BC87B6 /* BaseViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseViewState.m; path = StateMachinePageKit/Classes/BaseViewState.m; sourceTree = "<group>"; };
+		628299CC84BF39ADE565D2010468B019 /* BaseStateViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseStateViewController.h; path = StateMachinePageKit/Classes/BaseStateViewController.h; sourceTree = "<group>"; };
 		688196C98B08B50F4E63F4838677A85E /* Pods-StateMachinePageKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateMachinePageKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		691433B7885EB9C5BD8B2E8A30ABB9DF /* Pods-StateMachinePageKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StateMachinePageKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		707E4250CCD3A73417AE8659A9CD42BF /* StateMachinePageKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = StateMachinePageKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		6A27EEC285CC0C983DD144548B242082 /* BaseZeroViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseZeroViewState.h; path = StateMachinePageKit/Classes/BaseZeroViewState.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75249DC8D1BDB8469EE34846638356C8 /* StateMachinePageKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StateMachinePageKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		78EDA490F4F61C5DAC9B30E7E3F810CA /* Pods-StateMachinePageKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StateMachinePageKit_Example"; path = Pods_StateMachinePageKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DC3D2C6B2EDD0B3948EACE068A23026 /* BaseStateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseStateDelegate.h; path = StateMachinePageKit/Classes/BaseStateDelegate.h; sourceTree = "<group>"; };
+		7979B1D330DDD258786ABE567307363C /* StateMachinePageKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StateMachinePageKit.debug.xcconfig; sourceTree = "<group>"; };
 		8205EFA04876E075CFFCE9C0CE31EA99 /* Pods-StateMachinePageKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StateMachinePageKit_Example-dummy.m"; sourceTree = "<group>"; };
-		974081F77291A1932124AA65B3D75FE4 /* BaseViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseViewState.m; path = StateMachinePageKit/Classes/BaseViewState.m; sourceTree = "<group>"; };
+		8959F0CD5CFEDAEC1155DD482894E054 /* StateMachinePageKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StateMachinePageKit.release.xcconfig; sourceTree = "<group>"; };
+		8A4C9D36EB8B885A91025BF5EACA7537 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		998BFF5CE9BCCEC9A6103A46EA876CFE /* Pods-StateMachinePageKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateMachinePageKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		99E7BBBE998293354B1AA1784AA19C2B /* Pods-StateMachinePageKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateMachinePageKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9B82058106C2D4441DA3C3403EBBEFF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B37084EA4F22656CB29E5F8763E9CB9B /* StateMachinePageKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StateMachinePageKit.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A37596B195F7DE5BBC233C8A6DC05DC4 /* StateMachinePageKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StateMachinePageKit.h; path = StateMachinePageKit/Classes/StateMachinePageKit.h; sourceTree = "<group>"; };
 		B5DBC5B44767DC04BDDE033E7615EF44 /* Pods-StateMachinePageKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StateMachinePageKit_Tests"; path = Pods_StateMachinePageKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0E6960E95EA0F1F6581BB5362180F52 /* StateMachinePageKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StateMachinePageKit-dummy.m"; sourceTree = "<group>"; };
+		C1D3DC4C59AA67568684D298D49FA23F /* BaseViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewState.h; path = StateMachinePageKit/Classes/BaseViewState.h; sourceTree = "<group>"; };
 		C205CD74F808BDF90EC4545F09A19162 /* Pods-StateMachinePageKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StateMachinePageKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C482181BDBE5E33EADC9F51EFE024790 /* BaseStateViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseStateViewController.h; path = StateMachinePageKit/Classes/BaseStateViewController.h; sourceTree = "<group>"; };
+		C310A1319AC74B2B3AE4ECD0D51D06A0 /* StateMachinePageKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StateMachinePageKit.modulemap; sourceTree = "<group>"; };
 		CB193559A58294DA0964C70BDBE4AEB7 /* Pods-StateMachinePageKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StateMachinePageKit_Example.modulemap"; sourceTree = "<group>"; };
-		D44745558C7045064F0A94C1FDD4CFF4 /* BaseViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewState.h; path = StateMachinePageKit/Classes/BaseViewState.h; sourceTree = "<group>"; };
 		D814C215A0194C1C87E0EB1DE6B2CCF6 /* Pods-StateMachinePageKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StateMachinePageKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D8A36457A720B57E3542C44076EACC71 /* StateMachinePageKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StateMachinePageKit-Info.plist"; sourceTree = "<group>"; };
 		D9C40D7C4D1B4F661E701FF615FB2429 /* Pods-StateMachinePageKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StateMachinePageKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		DAD18783B24EC69575690E06B7BED2E3 /* StateMachinePageKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StateMachinePageKit.debug.xcconfig; sourceTree = "<group>"; };
+		DE3F45A68500B81863BDA4DD3F2BE452 /* StateMachinePageKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StateMachinePageKit-prefix.pch"; sourceTree = "<group>"; };
 		E0F484D3428BAF9038398986E3D3023D /* Pods-StateMachinePageKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StateMachinePageKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E13EE7F6FDFC7776779F9E6433F878DC /* Pods-StateMachinePageKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StateMachinePageKit_Tests.modulemap"; sourceTree = "<group>"; };
 		E3CE4AEE8C0211C0835A94353A3C52F6 /* Pods-StateMachinePageKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StateMachinePageKit_Example-Info.plist"; sourceTree = "<group>"; };
+		E69E0638B1A8650AE39415D518EDC306 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EC942796BA4CD731BFD703A807793CF4 /* Pods-StateMachinePageKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StateMachinePageKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F19CDFD9B22403698702AB9FF460A600 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F776D44E2A546DC7100B46F213CF849E /* BaseZeroViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseZeroViewState.h; path = StateMachinePageKit/Classes/BaseZeroViewState.h; sourceTree = "<group>"; };
-		FC64564BA16942F552DB56AF786BB433 /* BaseStateViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseStateViewController.m; path = StateMachinePageKit/Classes/BaseStateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		06F849E236AE492DE343D19584308ED4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23172592DDC5033EECB6013E10C0B788 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5999DC294539D49B81BA8D531DC41AFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,6 +100,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D81240188012639E4213549F2D8410A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E720F6FDBAABB9A567CB1429E3874A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E50DF9EA93E61D44EE04374B6B579A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,14 +131,30 @@
 			path = "Target Support Files/Pods-StateMachinePageKit_Example";
 			sourceTree = "<group>";
 		};
-		43A5B9D2DFD0F6213890A5FEDD937FEC /* Pod */ = {
+		3A3AB129F9A4A2CB827E97DCF7659EA1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F19CDFD9B22403698702AB9FF460A600 /* LICENSE */,
-				9B82058106C2D4441DA3C3403EBBEFF1 /* README.md */,
-				707E4250CCD3A73417AE8659A9CD42BF /* StateMachinePageKit.podspec */,
+				5160F765736133EF306D8E97E337C550 /* StateMachinePageKit */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5160F765736133EF306D8E97E337C550 /* StateMachinePageKit */ = {
+			isa = PBXGroup;
+			children = (
+				4E7DF87BCA596F5A034565BD89F72CA7 /* BaseStateDelegate.h */,
+				628299CC84BF39ADE565D2010468B019 /* BaseStateViewController.h */,
+				11B49420879B2917352BC1C46FE4EFD2 /* BaseStateViewController.m */,
+				C1D3DC4C59AA67568684D298D49FA23F /* BaseViewState.h */,
+				588956C1CE4AA48037A4593F29BC87B6 /* BaseViewState.m */,
+				6A27EEC285CC0C983DD144548B242082 /* BaseZeroViewState.h */,
+				21E38C960182E325E0585C1C3921598A /* BaseZeroViewState.m */,
+				A37596B195F7DE5BBC233C8A6DC05DC4 /* StateMachinePageKit.h */,
+				6DA2C8F54C7FD570A920C29A03CC71B9 /* Pod */,
+				AFCBCB621D5838F9C09F7B442652BF98 /* Support Files */,
+			);
+			name = StateMachinePageKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -147,19 +165,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		74E524E63BC4EAD154AA655E2EFBE63D /* Support Files */ = {
+		6DA2C8F54C7FD570A920C29A03CC71B9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				18DD9A2CB5CD24C6E0997DA9003BD9BE /* StateMachinePageKit.modulemap */,
-				C0E6960E95EA0F1F6581BB5362180F52 /* StateMachinePageKit-dummy.m */,
-				D8A36457A720B57E3542C44076EACC71 /* StateMachinePageKit-Info.plist */,
-				417E386D51B07A9B613B331091AC4461 /* StateMachinePageKit-prefix.pch */,
-				0CCDF92C68175052826F48A9A1024236 /* StateMachinePageKit-umbrella.h */,
-				DAD18783B24EC69575690E06B7BED2E3 /* StateMachinePageKit.debug.xcconfig */,
-				B37084EA4F22656CB29E5F8763E9CB9B /* StateMachinePageKit.release.xcconfig */,
+				8A4C9D36EB8B885A91025BF5EACA7537 /* LICENSE */,
+				E69E0638B1A8650AE39415D518EDC306 /* README.md */,
+				75249DC8D1BDB8469EE34846638356C8 /* StateMachinePageKit.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/StateMachinePageKit";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A63556B3C6BA4A373185262939D352DA /* Products */ = {
@@ -170,6 +183,21 @@
 				2E2A76DFDBF2CAAB0E9E4CF7E0B9B8C4 /* StateMachinePageKit */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCBCB621D5838F9C09F7B442652BF98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C310A1319AC74B2B3AE4ECD0D51D06A0 /* StateMachinePageKit.modulemap */,
+				36337D0A2CD4FF758F5FD03844C833A8 /* StateMachinePageKit-dummy.m */,
+				3E7347A11D83F4103A7C685675072F47 /* StateMachinePageKit-Info.plist */,
+				DE3F45A68500B81863BDA4DD3F2BE452 /* StateMachinePageKit-prefix.pch */,
+				142066A6D598B83DBF1F632D29C3FCCE /* StateMachinePageKit-umbrella.h */,
+				7979B1D330DDD258786ABE567307363C /* StateMachinePageKit.debug.xcconfig */,
+				8959F0CD5CFEDAEC1155DD482894E054 /* StateMachinePageKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StateMachinePageKit";
 			sourceTree = "<group>";
 		};
 		C9A9D81F3A01AA7C8F565FB30BD5906F /* Pods-StateMachinePageKit_Tests */ = {
@@ -188,19 +216,11 @@
 			path = "Target Support Files/Pods-StateMachinePageKit_Tests";
 			sourceTree = "<group>";
 		};
-		CE35140FD3DEAA78CF3157CDE0342E54 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FA56AECFE01785B335AC2FB447FED2E3 /* StateMachinePageKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CE35140FD3DEAA78CF3157CDE0342E54 /* Development Pods */,
+				3A3AB129F9A4A2CB827E97DCF7659EA1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				A63556B3C6BA4A373185262939D352DA /* Products */,
 				E5B6E42A645F62C04D19DB3777CFE457 /* Targets Support Files */,
@@ -224,38 +244,9 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FA56AECFE01785B335AC2FB447FED2E3 /* StateMachinePageKit */ = {
-			isa = PBXGroup;
-			children = (
-				7DC3D2C6B2EDD0B3948EACE068A23026 /* BaseStateDelegate.h */,
-				C482181BDBE5E33EADC9F51EFE024790 /* BaseStateViewController.h */,
-				FC64564BA16942F552DB56AF786BB433 /* BaseStateViewController.m */,
-				D44745558C7045064F0A94C1FDD4CFF4 /* BaseViewState.h */,
-				974081F77291A1932124AA65B3D75FE4 /* BaseViewState.m */,
-				F776D44E2A546DC7100B46F213CF849E /* BaseZeroViewState.h */,
-				27ED146455EAE952671BFC29A7ED1898 /* BaseZeroViewState.m */,
-				43A5B9D2DFD0F6213890A5FEDD937FEC /* Pod */,
-				74E524E63BC4EAD154AA655E2EFBE63D /* Support Files */,
-			);
-			name = StateMachinePageKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		189BB892A889500C3188124F426B5F66 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C8CEB4D0119EB1DA79910947D7F8402 /* BaseStateDelegate.h in Headers */,
-				6DA035C1197C25E60D4F9B99F4CCFC1D /* BaseStateViewController.h in Headers */,
-				3F01B1AED8D1774B564A2DDF43DF95C3 /* BaseViewState.h in Headers */,
-				E38DF35C1D53C23EB69D322994AC45AB /* BaseZeroViewState.h in Headers */,
-				71187D8B1E91630C1DB9364FEA26C294 /* StateMachinePageKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6F909FCF2118F9C473DD23753C66F2CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +260,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				95455C79F71881C9FD967931054909A3 /* Pods-StateMachinePageKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99E05864455870E48A562D6027E7B3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A89D007D11E2940338A0C6E84C1766 /* BaseStateDelegate.h in Headers */,
+				B9F6369F1CF083FA509944A645340DC3 /* BaseStateViewController.h in Headers */,
+				D0ABF00A4F51B0B66E8F95603C5FE561 /* BaseViewState.h in Headers */,
+				06F5E5F4B005096464C316ABB1A15A4F /* BaseZeroViewState.h in Headers */,
+				7F79C845036A5AF6DBEE1FAB3F51A6F8 /* StateMachinePageKit.h in Headers */,
+				021C75010F2006274C499159403FD525 /* StateMachinePageKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +291,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D93330F9DDDA975FA1F0F1BEA6CC5B45 /* PBXTargetDependency */,
+				3950203804C5C5DFC7312599B9555ABB /* PBXTargetDependency */,
 			);
 			name = "Pods-StateMachinePageKit_Tests";
 			productName = Pods_StateMachinePageKit_Tests;
@@ -306,7 +310,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7CB4DA17AF2CFADEE84A3C0C6BF77B31 /* PBXTargetDependency */,
+				AB9A1A4D0424EA84BB41DE34F7BDC81E /* PBXTargetDependency */,
 			);
 			name = "Pods-StateMachinePageKit_Example";
 			productName = Pods_StateMachinePageKit_Example;
@@ -315,12 +319,12 @@
 		};
 		F2FFD1976E6BDE7331FCC34F115C6E6A /* StateMachinePageKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17A9D36681499DC0812BFAAF91AB8D91 /* Build configuration list for PBXNativeTarget "StateMachinePageKit" */;
+			buildConfigurationList = CDB884AB083340106A70B43EC23A4A61 /* Build configuration list for PBXNativeTarget "StateMachinePageKit" */;
 			buildPhases = (
-				189BB892A889500C3188124F426B5F66 /* Headers */,
-				551501D3AD55E0C11FD25CFA05ADC7BF /* Sources */,
-				06F849E236AE492DE343D19584308ED4 /* Frameworks */,
-				23591977E8080F9E7A0C4E0A5C8EF093 /* Resources */,
+				A99E05864455870E48A562D6027E7B3C /* Headers */,
+				6D6F55C298AA2A5F1EE7434A91E9F8BC /* Sources */,
+				D1E720F6FDBAABB9A567CB1429E3874A /* Frameworks */,
+				A63BE93171EE7AFF0D7BCA41EC489196 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -361,14 +365,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		23591977E8080F9E7A0C4E0A5C8EF093 /* Resources */ = {
+		821B6A93117B75D826E038F755C147BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		821B6A93117B75D826E038F755C147BB /* Resources */ = {
+		A63BE93171EE7AFF0D7BCA41EC489196 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,14 +397,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		551501D3AD55E0C11FD25CFA05ADC7BF /* Sources */ = {
+		6D6F55C298AA2A5F1EE7434A91E9F8BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6642D85B96E9295537E9C91EC3BD6A5 /* BaseStateViewController.m in Sources */,
-				54F3BB9B787F56E445F26B9B263AB062 /* BaseViewState.m in Sources */,
-				E4AC6F2CFC01BF0419131BE972F3FD02 /* BaseZeroViewState.m in Sources */,
-				B04766371C4455D1EE45BE4E014DA526 /* StateMachinePageKit-dummy.m in Sources */,
+				11408127E562D30DEEE8188A4C46EB74 /* BaseStateViewController.m in Sources */,
+				FAED9A68C8B4E712E04F840F9845DAEB /* BaseViewState.m in Sources */,
+				8BA21B29F32F2E7686D7810E237948AC /* BaseZeroViewState.m in Sources */,
+				7D52687AD7B5AAB068B3DB2BE819DD6D /* StateMachinePageKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,21 +419,84 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7CB4DA17AF2CFADEE84A3C0C6BF77B31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StateMachinePageKit;
-			target = F2FFD1976E6BDE7331FCC34F115C6E6A /* StateMachinePageKit */;
-			targetProxy = FEEF727C6CE951B72FB7BA4DB8969043 /* PBXContainerItemProxy */;
-		};
-		D93330F9DDDA975FA1F0F1BEA6CC5B45 /* PBXTargetDependency */ = {
+		3950203804C5C5DFC7312599B9555ABB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-StateMachinePageKit_Example";
 			target = E98F31B2C4FE2F688EFACC1CD0873BB9 /* Pods-StateMachinePageKit_Example */;
-			targetProxy = FEF319204931E091D1155DB2EBC17A6D /* PBXContainerItemProxy */;
+			targetProxy = FE79973DA8D26F9AACF371C0D2E87AA2 /* PBXContainerItemProxy */;
+		};
+		AB9A1A4D0424EA84BB41DE34F7BDC81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StateMachinePageKit;
+			target = F2FFD1976E6BDE7331FCC34F115C6E6A /* StateMachinePageKit */;
+			targetProxy = D82129D20A23DCBFF39A828E91685810 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2CD1D1EA31AB46655908C2007F0654EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7979B1D330DDD258786ABE567307363C /* StateMachinePageKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StateMachinePageKit/StateMachinePageKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StateMachinePageKit/StateMachinePageKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StateMachinePageKit/StateMachinePageKit.modulemap";
+				PRODUCT_MODULE_NAME = StateMachinePageKit;
+				PRODUCT_NAME = StateMachinePageKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C9E351CB1F293373C79222550D1A180 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8959F0CD5CFEDAEC1155DD482894E054 /* StateMachinePageKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StateMachinePageKit/StateMachinePageKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StateMachinePageKit/StateMachinePageKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StateMachinePageKit/StateMachinePageKit.modulemap";
+				PRODUCT_MODULE_NAME = StateMachinePageKit;
+				PRODUCT_NAME = StateMachinePageKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		6D45411AACBBEAF52408E488BD4B175F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 688196C98B08B50F4E63F4838677A85E /* Pods-StateMachinePageKit_Tests.release.xcconfig */;
@@ -519,7 +586,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -658,37 +726,6 @@
 			};
 			name = Release;
 		};
-		DDF9BBE7CC75CE260085E3F337DE2B11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAD18783B24EC69575690E06B7BED2E3 /* StateMachinePageKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StateMachinePageKit/StateMachinePageKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StateMachinePageKit/StateMachinePageKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StateMachinePageKit/StateMachinePageKit.modulemap";
-				PRODUCT_MODULE_NAME = StateMachinePageKit;
-				PRODUCT_NAME = StateMachinePageKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EA8EFAF464BCCA44FFC118BC93640166 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC942796BA4CD731BFD703A807793CF4 /* Pods-StateMachinePageKit_Tests.debug.xcconfig */;
@@ -722,50 +759,9 @@
 			};
 			name = Debug;
 		};
-		F772075C7919DAD2FD6BD9F6E1BCFD1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B37084EA4F22656CB29E5F8763E9CB9B /* StateMachinePageKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StateMachinePageKit/StateMachinePageKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StateMachinePageKit/StateMachinePageKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StateMachinePageKit/StateMachinePageKit.modulemap";
-				PRODUCT_MODULE_NAME = StateMachinePageKit;
-				PRODUCT_NAME = StateMachinePageKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17A9D36681499DC0812BFAAF91AB8D91 /* Build configuration list for PBXNativeTarget "StateMachinePageKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDF9BBE7CC75CE260085E3F337DE2B11 /* Debug */,
-				F772075C7919DAD2FD6BD9F6E1BCFD1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		34C7F46D72F7CC3E2B0D14CDE83D2775 /* Build configuration list for PBXNativeTarget "Pods-StateMachinePageKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -780,6 +776,15 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB884AB083340106A70B43EC23A4A61 /* Build configuration list for PBXNativeTarget "StateMachinePageKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD1D1EA31AB46655908C2007F0654EF /* Debug */,
+				6C9E351CB1F293373C79222550D1A180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

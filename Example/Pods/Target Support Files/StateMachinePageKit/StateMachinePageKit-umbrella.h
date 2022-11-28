@@ -14,6 +14,7 @@
 #import "BaseStateViewController.h"
 #import "BaseViewState.h"
 #import "BaseZeroViewState.h"
+#import "StateMachinePageKit.h"
 
 FOUNDATION_EXPORT double StateMachinePageKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char StateMachinePageKitVersionString[];

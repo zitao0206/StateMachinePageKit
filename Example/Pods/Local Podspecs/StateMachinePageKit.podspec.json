@@ -1,6 +1,6 @@
 {
   "name": "StateMachinePageKit",
-  "version": "0.0.1",
+  "version": "1.0.10",
   "summary": "A short description of StateMachinePageKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/leon0206/StateMachinePageKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/leon0206/StateMachinePageKit.git",
-    "tag": "0.0.1"
+    "tag": "1.0.10"
   },
   "platforms": {
     "ios": "10.0"

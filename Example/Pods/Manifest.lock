@@ -1,5 +1,5 @@
 PODS:
-  - StateMachinePageKit (0.0.1)
+  - StateMachinePageKit (1.0.10)
 
 DEPENDENCIES:
   - StateMachinePageKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  StateMachinePageKit: 46b88e02ed6b73d2bd03736820494126924f389d
+  StateMachinePageKit: 82fb4367995ebb3482bc3c9ea34a6457931ecf98
 
 PODFILE CHECKSUM: d958fbc0ccdfb0367425d2a4e79eb00edc2f0243
 
